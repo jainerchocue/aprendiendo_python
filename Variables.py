@@ -54,8 +54,11 @@ print(f"El promedio de las notas es {promedio}.")
 # ===================================================================================
 
 # Ejercicio 5 — Intercambio de valores
-"""
+
 # Intercambia sus valores y muestra los resultados antes y después.
+
+# --- FORMA 1: Usando una variable auxiliar (Método tradicional) ---
+"""
 a = 10
 b = 5
 print(f"EL valor de 'a' antes del intercambio: {a}")
@@ -66,7 +69,16 @@ a = b
 b = c
 print(f"EL valor de 'a' despues del intercambio: {a}")
 print(f"EL valor de 'b' despues del intercambio: {b}")
+"""
 
+# --- FORMA 2: El truco de magia de Python (En una sola línea) ---
+"""
+x = 10
+y = 5
+
+x,y = y,x 
+print(f"Ahora 'x' vale: {x}") # Imprime 5
+print(f"Ahora 'y' vale: {y}") # Imprime 10
 """
 # ===================================================================================
 
@@ -85,10 +97,10 @@ print(f"Me llamo {nombre}, tengo {edad} años, vivo en {ciudad} y me gusta {hobb
 # ===================================================================================
 
 # Ejercicio 7: Crea variables para el precio de un producto y la cantidad comprada.
-
-
+"""
 precio_producto = 10000 # cop -> colombia-> pesos
 cantidad_compra = 5
 total_pagar = precio_producto * cantidad_compra
 
 print(f"Compraste {cantidad_compra} unidades, cada una cuesta: {precio_producto}, el total a pagar es: {total_pagar}")
+"""
