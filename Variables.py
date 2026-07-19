@@ -1,3 +1,4 @@
+###### FASE 1 #####
 # Ejercicio 1: Crea dos variables, una para tu nombre y otra para tu edad. 
 
 """
@@ -104,3 +105,39 @@ total_pagar = precio_producto * cantidad_compra
 
 print(f"Compraste {cantidad_compra} unidades, cada una cuesta: {precio_producto}, el total a pagar es: {total_pagar}")
 """
+
+# ===================================================================================
+
+# Ejercicio 8: Crea variables para nombre_jugador, nivel, puntos_experiencia y vida de un videojuego
+"""
+nombre_jugador = "Juan"
+nivel = 6 # 0 = basico, 5 medio , 10 muy bueno
+puntos_experiencia = 7 # 0 a 10
+vida = 3 #0 a 5 -> oportunidades
+
+print(f"Jugador {nombre_jugador} esta en el nivel {nivel} con {puntos_experiencia} puntos de experiencia y {vida} de vida")
+
+"""
+# ===================================================================================
+
+# Ejercicio 9: Crea variables para nombre_cliente, producto, precio_unitario y cantidad.
+"""
+nombre_cliente = "sandra campo"
+producto = "manzanas"
+precio_unitario = 1000 # pesos colombianos
+cantidad= 10
+total = precio_unitario * cantidad
+
+print(f"Cliente {nombre_cliente} compro {cantidad} unidades de {producto}, cada una cuesta $: {precio_unitario}, el total a pagar es $: {total}")
+"""
+
+# ===================================================================================
+
+# Ejercicio 10: Crea variables para nombre_evento, dia, hora y lugar.
+"""
+nombre_evento = "Reunion familiar"
+dia = "Martes"
+hora = "7:00 am"
+lugar = "Casa de la abuela"
+
+print(f"Tengo una {nombre_evento}, el dia {dia} a las {hora} en la {lugar}")"""
