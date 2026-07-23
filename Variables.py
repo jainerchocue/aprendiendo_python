@@ -1,9 +1,9 @@
 ###### FASE 1 #####
 # Ejercicio 1: Crea dos variables, una para tu nombre y otra para tu edad. 
 
-"""
-# Luego imprime un mensaje que diga: "Mi nombre es ___ y tengo ___ años."
 
+# Luego imprime un mensaje que diga: "Mi nombre es ___ y tengo ___ años."
+"""
 
 nombre = "Juan"
 edad = 25
@@ -11,8 +11,8 @@ edad = 25
 print("Mi nombre es " + nombre + " y tengo " + str(edad) + " años.") 
 # Segunda forma de hacerlo con f-string y imprimir junto con le mensaje es colocar f y despues adentro con los {variable}
 print(f"Mi nombre es {nombre} y tengo {edad} años.")
-
 """
+
 # ===================================================================================
 
 # Ejercicio 2: Crea una variable que guarde una temperatura en grados Celsius.
