@@ -154,7 +154,7 @@ print(f"El interes generado  por un capital de {capital_inicial} a una tasa del 
 # =======================================================
 
 #Ejercicio 10 — Conversión de moneda
-
+"""
 # Crea una variable valor_cop (pesos colombianos).
 # Crea una variable tasa_cambio (valor de 1 USD en COP).
 # Calcula la conversión de COP a USD aplicando la fórmula: valor_cop / tasa_cambio
@@ -164,11 +164,11 @@ valor_cop = 10000 # pesos colombianos
 tasa_cambio = 3280
 conversion = valor_cop / tasa_cambio
 print(f"El valor de un usd 1 esta a {tasa_cambio} y la conversion de {valor_cop} colombianos a USD es de {conversion}")
-
+"""
 # =======================================================
 
 #Ejercicio 11 — Conversión de tiempo
-
+"""
 # Crea una variable horas.
 # Convierte esas horas a minutos y segundos.
 # Muestra el resultado en un mensaje.
@@ -179,3 +179,86 @@ minutos = hora * 60
 segundos = hora * 3600
 
 print(f"La conversion de {hora} horas a minutos es {minutos} y de hora a segundos es {segundos}")
+"""
+
+# =======================================================
+
+# Ejercicio 12 — Cálculo de velocidad promedio
+"""
+# Crea variables distancia y tiempo.
+# Calcula la velocidad promedio aplicando la fórmula: velocidad = distancia / tiempo
+# Muestra el resultado en un mensaje.
+
+distancia = 10
+tiempo = 5
+
+velocidad_promedio = distancia / tiempo
+print(f"El resultado de la velocidad promedio es {velocidad_promedio}")
+"""
+
+# =======================================================
+
+# Ejercicio 13 — Cálculo de salario con horas extras
+"""
+# Crea variables salario_base, horas_extras y valor_hora_extra.
+# Calcula el salario total aplicando la fórmula: salario_total = salario_base + (horas_extras * valor_hora_extra)
+# Muestra el resultado en un mensaje.
+
+salario_base = 2500000 # valor en pesos colombianos
+horas_extra = 5
+valor_hora_extra = 10000 # pesos colombianos
+
+salario_total = salario_base +(horas_extra * valor_hora_extra)
+
+print(f"El salario base es de {salario_base}, y por las {horas_extra} horas extras, cada valor de hora extra tiene un valor de {valor_hora_extra}, la cual al final tiene que pagar {salario_total}")
+"""
+
+
+
+# =======================================================
+
+#Ejercicio 14 — Promedio ponderado
+"""
+# Crea variables nota1, nota2, nota3 y sus respectivos pesos.
+# Calcula el promedio ponderado aplicando la fórmula: promedio = (nota1*peso1 + nota2*peso2 + nota3*peso3) / (peso1+peso2+peso3)
+# Muestra el resultado en un mensaje.
+
+# la nota tiene un rango de 0 a 5, 0=muy mal , 5 = muy bueno
+# pesos 30% , 30% , 40%
+
+nota1 = 3
+peso1 = 0.30
+nota2 = 4
+peso2 = 0.30
+nota3 = 5
+peso3 = 0.40
+
+promedio = (nota1*peso1 + nota2*peso2 + nota3*peso3)/(peso1+peso2+peso3)
+
+print(f"La nota final es {promedio}")
+"""
+
+
+
+# ==================================================================================
+#  Ahora pedimos los datos al usuario para realizar las operaciones correspondientes.
+# ==================================================================================
+
+# Ejercicio 15 — Ley de Ohm (Física)
+
+# La Ley de Ohm dice: V = I * R
+# Donde:
+# V = voltaje (en voltios)
+# I = corriente (en amperios)
+# R = resistencia (en ohmios)
+
+# Pide al usuario ingresar corriente y resistencia.
+# Calcula el voltaje aplicando la fórmula.
+# Muestra el resultado en un mensaje.
+
+corriente = float(input("Ingrese la corriente (A): "))
+resistencia = float(input("Ingrese la resistencia (Ω): "))
+
+voltaje = corriente * resistencia
+
+print("El voltaje es ", voltaje ,"V")
