@@ -240,12 +240,12 @@ print(f"La nota final es {promedio}")
 
 
 
-# ==================================================================================
+# ====================================================================
 #  Ahora pedimos los datos al usuario para realizar las operaciones correspondientes.
-# ==================================================================================
+# ====================================================================
 
 # Ejercicio 15 — Ley de Ohm (Física)
-
+"""
 # La Ley de Ohm dice: V = I * R
 # Donde:
 # V = voltaje (en voltios)
@@ -262,3 +262,124 @@ resistencia = float(input("Ingrese la resistencia (Ω): "))
 voltaje = corriente * resistencia
 
 print("El voltaje es ", voltaje ,"V")
+"""
+
+# =======================================================
+
+# Ejercicio 16 — Energía Cinética
+"""
+# La fórmula de la energía cinética es: Ec = (1/2) * m * v^2
+# Donde:
+# m = masa (en kilogramos)
+# v = velocidad (en metros/segundo)
+# Ec = energía cinética (en Joules)
+
+# Pide al usuario ingresar masa y velocidad.
+# Calcula la energía cinética aplicando la fórmula.
+# Muestra el resultado en un mensaje.
+
+masa = float(input("Ingrese el valor de la masa: "))
+velocidad = float(input("Ingrese el valor de la velocidad: "))
+
+Ec = (1/2)*masa * velocidad**2
+
+print(f"El valor de la energia cinetica es: {Ec} Joules")
+"""
+
+# =======================================================
+
+# Ejercicio 17 — Ecuación cuadrática
+"""
+# La fórmula general es: x = (-b ± √(b^2 - 4ac)) / (2a)
+# Donde:
+# a, b, c son coeficientes de la ecuación ax^2 + bx + c = 0
+# Pide al usuario ingresar los valores de a, b y c.
+# Calcula las dos soluciones (si existen).
+# Muestra el resultado en un mensaje.
+
+a = float(input(f"Ingrese el valor del coeficiente (a): "))
+b = float(input(f"Ingrese el valor del coeficiente (b): "))
+c = float(input(f"Ingrese el valor del coeficiente (c): "))
+
+x1 = (-b + math.sqrt(b**2 - 4*a*c))/(2*a)
+x2 = (-b - math.sqrt(b**2 - 4*a*c))/(2*a)
+
+print(f"El valor de +x es :{x1}")
+print(f"El valor de -x es :{x2}")
+"""
+
+# =======================================================
+
+# Ejercicio 18 — Derivada básica
+"""
+# Ahora pedimos al usuario ingresar una función polinómica simple.
+# Usaremos la librería sympy para calcular la derivada.
+# La derivada nos permite conocer la pendiente de la función en cualquier punto.
+
+import sympy
+
+a = float(input("Ingrese el valor de A: "))
+b = float(input("Ingrese el valor de B: "))
+c = float(input("Ingrese e valor de C: "))
+x = sympy.Symbol('x')
+
+funcion = a*x**2 + b*x + c
+
+resul = sympy.diff(funcion, x)
+
+print(f"Resultado de la funcion es: {resul}")
+"""
+
+# =======================================================
+
+# Ejercicio 19 — Velocidad instantánea
+"""
+# La velocidad instantánea se obtiene derivando la función de posición respecto al tiempo.
+# Fórmula: v(t) = d/dt [s(t)]
+# Donde:
+# s(t) = posición en función del tiempo
+# v(t) = velocidad instantánea
+
+import sympy as VI
+
+a = float(input("Ingrese el valor de A: "))
+b = float(input("Ingrese el valor de B: "))
+c = float(input("Ingrese el valor de C: "))
+tiempo = int(input("Ingresar tiempo: "))
+
+t = VI.Symbol("t")
+funcion = a*t**2 +b*t + c
+
+resultado = VI.diff(funcion, t)
+velocidad_tiempo = resultado.subs(t, tiempo)
+
+print(f"La derivada es: {resultado}")
+print(f"La velocidad en el tiempo {tiempo} es {velocidad_tiempo:.5}")
+
+"""
+
+# =======================================================
+
+# Ejercicio 20 — Integral básica
+
+# La integral nos permite calcular el área bajo la curva de una función.
+# Fórmula: ∫ f(x) dx
+# Donde:
+# f(x) = función polinómica (ejemplo: ax^2 + bx + c)
+
+
+import sympy as sp
+
+a = float(input("Ingrese el valor de A: "))
+b = float(input("Ingrese el valor de B: "))
+c = float(input("Ingrese el valor de C: "))
+d = float(input("Ingrese el valor de D: "))
+
+x = sp.Symbol("x")
+
+funcion = a*x**3+ b*x**2+ c*x + d
+
+resultado = sp.integrate(funcion, x)
+resultado_definida = sp.integrate(funcion, (x, 0, 2))
+print(f"La integral resultante es: {resultado}")
+print(f"El área bajo la curva entre 0 y 2 es: {resultado_definida}")
