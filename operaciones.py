@@ -361,7 +361,7 @@ print(f"La velocidad en el tiempo {tiempo} es {velocidad_tiempo:.5}")
 # =======================================================
 
 # Ejercicio 20 — Integral básica
-
+"""
 # La integral nos permite calcular el área bajo la curva de una función.
 # Fórmula: ∫ f(x) dx
 # Donde:
@@ -383,3 +383,4 @@ resultado = sp.integrate(funcion, x)
 resultado_definida = sp.integrate(funcion, (x, 0, 2))
 print(f"La integral resultante es: {resultado}")
 print(f"El área bajo la curva entre 0 y 2 es: {resultado_definida}")
+"""
