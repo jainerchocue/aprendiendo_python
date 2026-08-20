@@ -233,7 +233,7 @@ else:
 #============================================================================
 
 # Exercise 10 — Conditionals for a simple calculator
-
+"""
 # Problem:
 # Create a program that asks the user to enter two numbers
 # and then choose an operation (add, subtract, multiply, divide).
@@ -265,3 +265,50 @@ elif opcion == "divide":
         print(f"The value of divide is {divide}")
 else:
     print("Invalid operation")
+"""
+
+
+#============================================================================
+
+# Exercise 11 — Conditionals for checking vowels and consonants
+"""
+# Problem:
+# Create a program that asks the user to enter a single letter
+# and shows whether it is a vowel or a consonant:
+# - If the letter is 'a', 'e', 'i', 'o', or 'u' → show "It is a vowel".
+# - If the letter is any other alphabet character → show "It is a consonant".
+# - If the input is not a letter → show "Invalid input".
+
+letter = input("Enter a single letter: ")
+
+vowel = 'a,e,i,o,u'
+
+if letter in vowel:
+    print("It is a vowel")
+elif letter.isalpha() and len(letter) == 1:
+    print("It is a consonant")
+else:
+    print("Invalid input")
+"""
+
+
+#============================================================================
+
+# Exercise 12 — Conditionals for checking positive, negative, or zero
+
+# Problem:
+# Create a program that asks the user to enter a number
+# and shows whether the number is positive, negative, or zero:
+# - If the number is greater than 0 → show "The number is positive".
+# - If the number is less than 0 → show "The number is negative".
+# - If the number is equal to 0 → show "The number is zero".
+
+
+number = int(input("Enter a number: "))
+
+if number > 0:
+    print("The number is positive")
+elif number < 0:
+    print("The number is negative")
+elif number == 0:
+    print("The number is  zero")
