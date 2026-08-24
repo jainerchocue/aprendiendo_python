@@ -295,7 +295,7 @@ else:
 #============================================================================
 
 # Exercise 12 — Conditionals for checking positive, negative, or zero
-
+"""
 # Problem:
 # Create a program that asks the user to enter a number
 # and shows whether the number is positive, negative, or zero:
@@ -310,5 +310,337 @@ if number > 0:
     print("The number is positive")
 elif number < 0:
     print("The number is negative")
-elif number == 0:
+else:
     print("The number is  zero")
+"""
+
+#============================================================================
+
+# Exercise 13 — Conditionals for checking quadratic discriminant
+
+# Problem:
+# Create a program that asks the user to enter the coefficients (a, b, c)
+# of a quadratic equation ax² + bx + c = 0.
+# The program should calculate the discriminant (Δ = b² - 4ac)
+# and show the type of solutions:
+# - If Δ > 0 → show "Two real solutions".
+# - If Δ == 0 → show "One real solution".
+# - If Δ < 0 → show "No real solutions (complex roots)".
+
+a = float(input("Enter  a number of coefficiente A: "))
+b = float(input("Enter  a number of coefficiente B: "))
+c = float(input("Enter  a number of coefficiente C: "))
+
+discriminant = b**2 - 4*a*c
+
+if discriminant > 0:
+    print("Two real solution")
+elif discriminant  == 0 :
+    print("One real solution")
+elif discriminant < 0:
+    print("No real solutions (Complex roots)")
+"""
+
+#============================================================================
+
+# Ejercicio 14 — Condicionales para sistema de login básico
+"""
+# Problema:
+# Crea un programa que simule un sistema de login simple.
+# El programa debe pedir al usuario un nombre de usuario y contraseña,
+# y verificar si coinciden con los valores almacenados:
+# - Si ambos coinciden → mostrar "¡Login exitoso! Bienvenido/a".
+# - Si el usuario es correcto pero la contraseña no → mostrar "Contraseña incorrecta".
+# - Si el usuario no existe → mostrar "Usuario no encontrado".
+
+# Este es un ejemplo práctico de cómo funcionan los sistemas de autenticación
+# en aplicaciones reales como redes sociales, bancos, etc.
+
+usuario_correcto = "admin"
+contrasena_correcta = "12345"
+
+usuario = input("Ingrese su nombre de usuario: ")
+contrasena = input("Ingrese su contraseña: ")
+
+if usuario == usuario_correcto and contrasena == contrasena_correcta:
+    print("¡Login exitoso! Bienvenido/a")
+elif usuario == usuario_correcto and contrasena != contrasena_correcta:
+    print("Contraseña incorrecta. Intente nuevamente.")
+else:
+    print("Usuario no encontrado. Verifique su nombre de usuario.")
+"""
+
+#============================================================================
+
+# Ejercicio 15 — Condicionales para clasificación de temperaturas
+"""
+# Problema:
+# Crea un programa que pida al usuario ingresar una temperatura en grados Celsius
+# y muestre un mensaje según el rango:
+# - Si la temperatura es menor de 10 → mostrar "Hace mucho frío, abrígate bien".
+# - Si está entre 10 y 20 → mostrar "El clima está fresco, usa una chaqueta ligera".
+# - Si está entre 21 y 30 → mostrar "El clima está agradable, temperatura ideal".
+# - Si es mayor de 30 → mostrar "Hace mucho calor, mantente hidratado/a".
+
+# Este ejemplo es útil para aplicaciones del clima y sistemas de alerta.
+
+temperatura = float(input("Ingrese la temperatura en grados Celsius: "))
+
+if temperatura < 10:
+    print("Hace mucho frío, abrígate bien")
+elif temperatura >= 10 and temperatura <= 20:
+    print("El clima está fresco, usa una chaqueta ligera")
+elif temperatura >= 21 and temperatura <= 30:
+    print("El clima está agradable, temperatura ideal")
+else:
+    print("Hace mucho calor, mantente hidratado/a")
+"""
+
+#============================================================================
+
+# Ejercicio 16 — Condicionales para cálculo de IMC (Índice de Masa Corporal)
+"""
+# Problema:
+# Crea un programa que pida al usuario ingresar su peso en kilogramos y su altura en metros,
+# calcule el IMC y muestre un mensaje según el resultado:
+# - Si IMC < 18.5 → mostrar "Estás bajo de peso, consulta a un nutricionista".
+# - Si IMC está entre 18.5 y 24.9 → mostrar "¡Tu peso es saludable! Continúa así".
+# - Si IMC está entre 25 y 29.9 → mostrar "Tienes sobrepeso, cuida tu alimentación".
+# - Si IMC >= 30 → mostrar "Tienes obesidad, busca orientación médica".
+
+# Fórmula del IMC: peso / (altura * altura)
+# Este ejemplo es muy útil en aplicaciones de salud y bienestar.
+
+peso = float(input("Ingrese su peso en kilogramos: "))
+altura = float(input("Ingrese su altura en metros: "))
+
+imc = peso / (altura * altura)
+
+print(f"Tu IMC es: {imc:.2f}")
+
+if imc < 18.5:
+    print("Estás bajo de peso, consulta a un nutricionista")
+elif imc >= 18.5 and imc <= 24.9:
+    print("¡Tu peso es saludable! Continúa así")
+elif imc >= 25 and imc <= 29.9:
+    print("Tienes sobrepeso, cuida tu alimentación")
+else:
+    print("Tienes obesidad, busca orientación médica")
+"""
+
+#============================================================================
+
+# Ejercicio 17 — Condicionales para validar contraseña fuerte
+"""
+# Problema:
+# Crea un programa que pida al usuario ingresar una contraseña
+# y evalúe qué tan fuerte es según estos criterios:
+# - Si tiene menos de 6 caracteres → mostrar "Contraseña muy débil".
+# - Si tiene entre 6 y 8 caracteres → mostrar "Contraseña débil".
+# - Si tiene entre 9 y 12 caracteres → mostrar "Contraseña moderada".
+# - Si tiene más de 12 caracteres → mostrar "Contraseña fuerte".
+
+# Este ejemplo es fundamental para aplicaciones de seguridad y protección de datos.
+
+contrasena = input("Ingrese su contraseña: ")
+
+longitud = len(contrasena)
+
+if longitud < 6:
+    print("Contraseña muy débil. Debe tener al menos 6 caracteres.")
+elif longitud >= 6 and longitud <= 8:
+    print("Contraseña débil. Considera hacerla más larga.")
+elif longitud >= 9 and longitud <= 12:
+    print("Contraseña moderada. Buen trabajo.")
+else:
+    print("Contraseña fuerte. ¡Excelente nivel de seguridad!")
+"""
+
+#============================================================================
+
+# Ejercicio 18 — Condicionales para verificar si puede votar
+"""
+# Problema:
+# Crea un programa que pida al usuario ingresar su edad
+# y muestre un mensaje sobre su elegibilidad para votar:
+# - Si es menor de 18 → mostrar "Aún no puedes votar, espera un poco más".
+# - Si tiene entre 18 y 70 → mostrar "¡Puedes votar! Es tu derecho y deber cívico".
+# - Si es mayor de 70 → mostrar "Puedes votar, pero es opcional para ti".
+
+# Este ejemplo muestra cómo los condicionales se usan en sistemas legales y cívicos.
+
+edad = int(input("Ingrese su edad: "))
+
+if edad < 18:
+    print("Aún no puedes votar, espera un poco más")
+elif edad >= 18 and edad <= 70:
+    print("¡Puedes votar! Es tu derecho y deber cívico")
+else:
+    print("Puedes votar, pero es opcional para ti")
+"""
+
+#============================================================================
+
+# Ejercicio 19 — Condicionales para clasificación de triángulos
+"""
+# Problema:
+# Crea un programa que pida al usuario ingresar las longitudes de tres lados de un triángulo
+# y muestre qué tipo de triángulo es:
+# - Si los tres lados son iguales → mostrar "Triángulo equilátero".
+# - Si solo dos lados son iguales → mostrar "Triángulo isósceles".
+# - Si todos los lados son diferentes → mostrar "Triángulo escaleno".
+# - Si no puede formar un triángulo → mostrar "No es un triángulo válido".
+
+# Para que sea un triángulo válido, la suma de dos lados debe ser mayor que el tercero.
+
+lado1 = float(input("Ingrese el primer lado: "))
+lado2 = float(input("Ingrese el segundo lado: "))
+lado3 = float(input("Ingrese el tercer lado: "))
+
+# Primero verificamos si puede ser un triángulo
+if lado1 + lado2 > lado3 and lado1 + lado3 > lado2 and lado2 + lado3 > lado1:
+    if lado1 == lado2 and lado2 == lado3:
+        print("Triángulo equilátero (todos los lados iguales)")
+    elif lado1 == lado2 or lado1 == lado3 or lado2 == lado3:
+        print("Triángulo isósceles (dos lados iguales)")
+    else:
+        print("Triángulo escaleno (todos los lados diferentes)")
+else:
+    print("No es un triángulo válido")
+"""
+
+#============================================================================
+
+# Ejercicio 20 — Condicionales para sistema de prioridades de tareas
+"""
+# Problema:
+# Crea un programa que simule un sistema de prioridades para tareas.
+# El usuario debe ingresar la urgencia de una tarea y mostrará su prioridad:
+# - Si es "urgente" → mostrar "Prioridad ALTA - Debe hacerse inmediatamente".
+# - Si es "importante" → mostrar "Prioridad MEDIA - Debe hacerse pronto".
+# - Si es "normal" → mostrar "Prioridad BAJA - Puede esperar un poco".
+# - Si es otro valor → mostrar "Categoría no reconocida".
+
+# Este ejemplo es útil para aplicaciones de gestión de tareas y productividad.
+
+urgencia = input("Ingrese la urgencia de la tarea (urgente/importante/normal): ").lower()
+
+if urgencia == "urgente":
+    print("Prioridad ALTA - Debe hacerse inmediatamente")
+elif urgencia == "importante":
+    print("Prioridad MEDIA - Debe hacerse pronto")
+elif urgencia == "normal":
+    print("Prioridad BAJA - Puede esperar un poco")
+else:
+    print("Categoría no reconocida. Use: urgente, importante o normal")
+"""
+
+#============================================================================
+
+# Ejercicio 21 — Condicionales para verificar múltiplos
+"""
+# Problema:
+# Crea un programa que pida al usuario ingresar dos números
+# y verifique si el segundo número es múltiplo del primero:
+# - Si el segundo número es múltiplo del primero → mostrar "Es múltiplo".
+# - Si no es múltiplo → mostrar "No es múltiplo".
+
+# Un número es múltiplo de otro si al dividirlo el residuo es 0.
+# Este concepto es fundamental en matemáticas y programación.
+
+numero1 = int(input("Ingrese el primer número: "))
+numero2 = int(input("Ingrese el segundo número: "))
+
+if numero2 % numero1 == 0:
+    print(f"{numero2} es múltiplo de {numero1}")
+else:
+    print(f"{numero2} no es múltiplo de {numero1}")
+"""
+
+#============================================================================
+
+# Ejercicio 22 — Condicionales para clasificación de productos por precio
+"""
+# Problema:
+# Crea un programa que pida al usuario ingresar el precio de un producto
+# y muestre una categoría según su rango:
+# - Si el precio es menor de 20 → mostrar "Producto económico".
+# - Si está entre 20 y 50 → mostrar "Producto de precio medio".
+# - Si está entre 51 y 100 → mostrar "Producto premium".
+# - Si es mayor de 100 → mostrar "Producto de lujo".
+
+# Este ejemplo es útil para sistemas de comercio electrónico y tiendas.
+
+precio = float(input("Ingrese el precio del producto: "))
+
+if precio < 20:
+    print("Producto económico")
+elif precio >= 20 and precio <= 50:
+    print("Producto de precio medio")
+elif precio >= 51 and precio <= 100:
+    print("Producto premium")
+else:
+    print("Producto de lujo")
+"""
+
+#============================================================================
+
+# Ejercicio 23 — Condicionales para determinar estación del año
+"""
+# Problema:
+# Crea un programa que pida al usuario ingresar un número de mes (1-12)
+# y muestre a qué estación del año pertenece:
+# - Si es 12, 1 o 2 → mostrar "Invierno".
+# - Si es 3, 4 o 5 → mostrar "Primavera".
+# - Si es 6, 7 u 8 → mostrar "Verano".
+# - Si es 9, 10 u 11 → mostrar "Otoño".
+# - Si es otro número → mostrar "Mes no válido".
+
+# Este ejemplo muestra cómo manejar múltiples condiciones con el mismo resultado.
+
+mes = int(input("Ingrese el número del mes (1-12): "))
+
+if mes == 12 or mes == 1 or mes == 2:
+    print("Invierno")
+elif mes == 3 or mes == 4 or mes == 5:
+    print("Primavera")
+elif mes == 6 or mes == 7 or mes == 8:
+    print("Verano")
+elif mes == 9 or mes == 10 or mes == 11:
+    print("Otoño")
+else:
+    print("Mes no válido. Ingrese un número entre 1 y 12")
+"""
+
+#============================================================================
+
+# Ejercicio 24 — Condicionales para sistema de calificación de restaurantes
+"""
+# Problema:
+# Crea un programa que pida al usuario ingresar una calificación de restaurante (1-5)
+# y muestre un mensaje según la calidad:
+# - Si es 5 → mostrar "¡Excelente! Restaurante de primera categoría".
+# - Si es 4 → mostrar "Muy bueno, recomendado".
+# - Si es 3 → mostrar "Bueno, cumple con lo esperado".
+# - Si es 2 → mostrar "Regular, podría mejorar".
+# - Si es 1 → mostrar "Malo, no recomendado".
+# - Si es otro valor → mostrar "Calificación no válida (debe ser 1-5)".
+
+# Este ejemplo es útil para aplicaciones de reseñas y evaluación de servicios.
+"""
+
+calificacion = int(input("Ingrese la calificación del restaurante (1-5): "))
+
+if calificacion == 5:
+    print("¡Excelente! Restaurante de primera categoría")
+elif calificacion == 4:
+    print("Muy bueno, recomendado")
+elif calificacion == 3:
+    print("Bueno, cumple con lo esperado")
+elif calificacion == 2:
+    print("Regular, podría mejorar")
+elif calificacion == 1:
+    print("Malo, no recomendado")
+else:
+    print("Calificación no válida (debe ser 1-5)")
+"""
