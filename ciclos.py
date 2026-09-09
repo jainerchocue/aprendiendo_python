@@ -1,10 +1,38 @@
-# ✨ ¡Hola! Por el momento este archivo está vacío, ya que vamos paso a paso.
-# 
-# Te invito a revisar los otros archivos del repositorio donde ya voy subiendo 
-# varios códigos de ejemplo para que puedas ir practicando y estudiando.
-# 
-# Si te gusta este material, no olvides darme un "Like" para apoyar el proyecto:
-# ⭐ Aquí en GitHub: Haz clic en el botón de la estrellita (Star).
-# ❤️ En TikTok: Regálame un corazoncito en los videos.
-# 
-# ¡Muchas gracias por aprender tecnología conmigo y ser parte de esta comunidad! 🙌
+# Loops Topic
+
+# Exercise 1 — Print numbers from 1 to 10
+# Problem:
+# Create a program that prints the numbers from 1 to 10.
+# - Use a "for" loop.
+# - Each number should appear on a new line.
+
+for i in range(1, 11):
+    print(i)
+
+#==============================================================
+
+# Loops Topic
+
+# Exercise 2 — Print numbers backwards
+
+# Problem:
+# Create a program that prints the numbers from 10 down to 1.
+# - Use a "for" loop.
+# - Each number should appear on a new line.
+
+#==============================================================
+
+# Nuevos ejemplos sencillos
+
+# Ejemplo 3: Mostrar los números pares del 2 al 10
+for numero in range(2, 11, 2):
+    print(numero)
+
+# Ejemplo 4: Mostrar los números impares del 1 al 9
+for numero in range(1, 10, 2):
+    print(numero)
+
+# Ejemplo 5: Repetir un mensaje tres veces
+for numero in range(3):
+    print("Estoy aprendiendo Python")
+
