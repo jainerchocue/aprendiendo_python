@@ -73,6 +73,16 @@ Cada archivo incluye:
 
 **El objetivo es que aprendamos Python desde cero, de manera sencilla y práctica.**
 
+## 🚀 Actualizaciones recientes
+
+Este repositorio continúa creciendo paso a paso. Se agregaron ejemplos sencillos
+en los archivos principales para seguir practicando variables, operaciones,
+condicionales, ciclos, listas, diccionarios y funciones.
+
+Los ejemplos mantienen el nivel inicial del repositorio y están pensados para
+leerlos, ejecutarlos y modificarlos poco a poco. Próximamente se seguirán
+incorporando nuevos ejercicios y mini proyectos.
+
 ---
 
 ## 📄 Copyright y Términos de Uso
