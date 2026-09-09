@@ -40,3 +40,22 @@ for nombre in nombres:
 letras = ["a", "b", "c", "d", "e"]
 cantidad = len(letras)
 print(f"La lista tiene {cantidad} elementos")
+
+#============================================================================
+
+# Nuevos ejemplos sencillos
+
+# Ejemplo 6: Cambiar un elemento de una lista
+colores_favoritos = ["azul", "verde", "rojo"]
+colores_favoritos[1] = "amarillo"
+print(colores_favoritos)
+
+# Ejemplo 7: Eliminar un elemento de una lista
+animales = ["perro", "gato", "conejo"]
+animales.remove("gato")
+print(animales)
+
+# Ejemplo 8: Ordenar una lista de números
+calificaciones = [4, 2, 5, 3]
+calificaciones.sort()
+print(calificaciones)
