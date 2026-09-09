@@ -35,8 +35,26 @@ print(configuracion)
 
 #============================================================================
 
-# Ejercicio 5 — Recorrer un diccionario
-# El ciclo for nos permite recorrer las claves del diccionario
+# Ejercicio 5 — Mostrar claves y valores
+# Los métodos keys() y values() muestran la información del diccionario
 notas = {"matematicas": 85, "ingles": 90, "ciencias": 78}
-for materia in notas:
-    print(f"{materia}: {notas[materia]}")
+print(notas.keys())
+print(notas.values())
+
+#============================================================================
+
+# Nuevos ejemplos sencillos
+
+# Ejemplo 6: Consultar los datos de un libro
+libro = {"titulo": "Python fácil", "paginas": 120}
+print(libro["titulo"])
+print(libro["paginas"])
+
+# Ejemplo 7: Eliminar una clave
+celular = {"marca": "Samsung", "color": "negro", "precio": 500000}
+del celular["color"]
+print(celular)
+
+# Ejemplo 8: Consultar otra clave
+curso = {"nombre": "Python", "nivel": "inicial"}
+print(curso["nivel"])
