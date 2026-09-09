@@ -644,3 +644,35 @@ elif calificacion == 1:
 else:
     print("Calificación no válida (debe ser 1-5)")
 """
+
+#============================================================================
+
+# Nuevos ejemplos sencillos
+"""
+# Ejemplo 25: Verificar si una persona puede entrar
+edad = 20
+
+if edad >= 18:
+    print("Puede entrar")
+else:
+    print("No puede entrar")
+
+# Ejemplo 26: Revisar si hay suficiente dinero
+dinero = 15000
+precio = 12000
+
+if dinero >= precio:
+    print("Puedes realizar la compra")
+else:
+    print("No tienes suficiente dinero")
+
+# Ejemplo 27: Clasificar una cantidad de fruta
+cantidad = 6
+
+if cantidad == 0:
+    print("No hay frutas")
+elif cantidad < 5:
+    print("Hay pocas frutas")
+else:
+    print("Hay varias frutas")
+"""
