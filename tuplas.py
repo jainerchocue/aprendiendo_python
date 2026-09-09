@@ -8,3 +8,16 @@
 # ❤️ En TikTok: Regálame un corazoncito en los videos.
 # 
 # ¡Muchas gracias por aprender tecnología conmigo y ser parte de esta comunidad! 🙌
+
+# ==============================================================
+
+# Nuevos ejemplos sencillos de tuplas
+
+# Ejemplo 1: Crear una tupla y mostrarla
+colores = ("rojo", "verde", "azul")
+print(colores)
+
+# Ejemplo 2: Acceder a elementos de una tupla
+animales = ("perro", "gato", "conejo")
+print(animales[0])
+print(animales[1])
