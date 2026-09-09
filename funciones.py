@@ -49,3 +49,26 @@ def calcular_cuadrado(numero):
 
 resultado = calcular_cuadrado(3)
 print(f"El cuadrado de 3 es: {resultado}")
+
+#============================================================================
+
+# Nuevos ejemplos sencillos
+
+# Ejemplo 6: Función para sumar dos números
+def sumar(numero1, numero2):
+    return numero1 + numero2
+
+print(sumar(3, 4))
+
+# Ejemplo 7: Función para saludar con un mensaje
+def mostrar_mensaje(mensaje):
+    print(mensaje)
+
+mostrar_mensaje("Hoy practicamos Python")
+
+# Ejemplo 8: Función para calcular el precio total
+def calcular_total(precio, cantidad):
+    return precio * cantidad
+
+total = calcular_total(2500, 3)
+print(f"El total es: {total}")
