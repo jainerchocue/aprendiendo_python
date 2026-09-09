@@ -8,3 +8,23 @@
 # ❤️ En TikTok: Regálame un corazoncito en los videos.
 # 
 # ¡Muchas gracias por aprender tecnología conmigo y ser parte de esta comunidad! 🙌
+
+# ==============================================================
+
+# Nuevos mini proyectos sencillos
+
+# Proyecto 1: Presentación personal
+nombre = "Jainer"
+edad = 25
+ciudad = "Bogota"
+
+print(f"Mi nombre es {nombre}, tengo {edad} años y vivo en {ciudad}.")
+
+# Proyecto 2: Calculadora de una compra
+producto = "Cuaderno"
+precio = 5000
+cantidad = 2
+total = precio * cantidad
+
+print(f"Producto: {producto}")
+print(f"Total a pagar: {total}")
