@@ -238,6 +238,28 @@ promedio = (nota1*peso1 + nota2*peso2 + nota3*peso3)/(peso1+peso2+peso3)
 print(f"La nota final es {promedio}")
 """
 
+# =======================================================
+
+# Nuevos ejemplos sencillos
+"""
+# Ejemplo 15: Sumar los productos de una compra
+pan = 3000
+leche = 4000
+total = pan + leche
+print(f"El total de la compra es {total}")
+
+# Ejemplo 16: Convertir kilómetros a metros
+kilometros = 3
+metros = kilometros * 1000
+print(f"{kilometros} kilómetros equivalen a {metros} metros")
+
+# Ejemplo 17: Calcular el precio con IVA
+precio = 10000
+iva = precio * 0.19
+precio_final = precio + iva
+print(f"El precio final con IVA es {precio_final}")
+"""
+
 
 
 # ====================================================================
