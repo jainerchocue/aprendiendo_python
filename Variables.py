@@ -141,3 +141,26 @@ hora = "7:00 am"
 lugar = "Casa de la abuela"
 
 print(f"Tengo una {nombre_evento}, el dia {dia} a las {hora} en la {lugar}")"""
+
+# ===================================================================================
+
+# Nuevos ejemplos sencillos
+"""
+# Ejemplo 11: Datos de una mascota
+nombre_mascota = "Luna"
+tipo_mascota = "perra"
+edad_mascota = 3
+
+print(f"{nombre_mascota} es una {tipo_mascota} de {edad_mascota} años.")
+
+# Ejemplo 12: Convertir minutos a segundos
+minutos = 5
+segundos = minutos * 60
+print(f"{minutos} minutos equivalen a {segundos} segundos.")
+
+# Ejemplo 13: Precio de una compra
+precio = 2500
+cantidad = 4
+total = precio * cantidad
+print(f"El total de la compra es {total} pesos.")
+"""
