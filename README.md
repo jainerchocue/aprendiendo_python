@@ -1,5 +1,9 @@
 # Ejercicio de Python
 
+> Proyecto educativo en crecimiento: ya somos **11 estrellas** en GitHub.
+
+**Estado actual:** fundamentos de Python · versión 0.2 · última actualización: 20 de septiembre de 2026
+
 ## ⭐ ¡Regálame una estrellita en GitHub! ⭐
 
 **Si este repositorio te ayuda en tu aprendizaje de Python, por favor regálame una estrellita ⭐ en GitHub.** Tu apoyo es fundamental para que esta iniciativa siga creciendo y llegue a más personas que quieren aprender tecnología. ¡Juntos podemos hacer crecer esta comunidad de aprendizaje!
@@ -35,31 +39,31 @@ En este repositorio tendrás acceso a:
 Aquí encontrarás los conceptos base que te servirán para construir proyectos reales:
 
 ### ▶    Variables
-Entender cómo almacenar y manipular información
+Entender cómo almacenar y manipular información · [`Variables.py`](Variables.py)
 
 ### ▶    Operaciones  
-Realizar cálculos y transformaciones de datos
+Realizar cálculos y transformaciones de datos · [`operaciones.py`](operaciones.py)
 
 ### ▶    Condicionales
-Tomar decisiones en tu código según diferentes situaciones
+Tomar decisiones en tu código según diferentes situaciones · [`condicionales.py`](condicionales.py)
 
 ### ▶    Ciclos
-Repetir tareas de manera eficiente (bucles)
+Repetir tareas de manera eficiente (bucles) · [`ciclos.py`](ciclos.py)
 
 ### ▶    Listas
-Organizar y trabajar con colecciones de datos
+Organizar y trabajar con colecciones de datos · [`listas.py`](listas.py)
 
 ### ▶    Diccionarios
-Almacenar información con pares clave-valor
+Almacenar información con pares clave-valor · [`diccionarios.py`](diccionarios.py)
 
 ### ▶    Tuplas
-Manejar datos inmutables de manera eficiente
+Manejar datos inmutables de manera eficiente · [`tuplas.py`](tuplas.py)
 
 ### ▶    Funciones
-Crear bloques de código reutilizables
+Crear bloques de código reutilizables · [`funciones.py`](funciones.py)
 
 ### ▶    Mini Proyectos
-Aplicar todo lo aprendido en proyectos prácticos
+Aplicar todo lo aprendido en proyectos prácticos · [`mini_proyectos.py`](mini_proyectos.py)
 
 ---
 
@@ -74,6 +78,17 @@ Cada archivo incluye:
 **El objetivo es que aprendamos Python desde cero, de manera sencilla y práctica.**
 
 ## 🚀 Actualizaciones recientes
+
+### 20 de septiembre de 2026
+
+- Celebramos las **11 estrellas** del repositorio.
+- Agregamos 10 ejemplos progresivos a cada tema principal.
+- Actualizamos las versiones de los temas para la nueva subida.
+- El README ahora funciona como mapa rápido para encontrar cada tema.
+
+### 11 de septiembre de 2026
+
+- Se incorporaron ejercicios de ciclos y una pirámide de caracteres.
 
 Este repositorio continúa creciendo paso a paso. Se agregaron ejemplos sencillos
 en los archivos principales para seguir practicando variables, operaciones,
