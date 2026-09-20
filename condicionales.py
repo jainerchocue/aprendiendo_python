@@ -1,3 +1,4 @@
+# Version: 0.5
 # 📘 El uso de Condicionales en ProgramaciónBienvenido/a a este espacio. 
 # El objetivo de este código es mostrar el funcionamiento de las estructuras condicionales.Una condicional es un proceso que otorga a las computadoras la capacidad de tomar decisiones lógicas. 
 # Al evaluar el flujo del programa, el sistema escoge la ruta que cumple con los requisitos establecidos y, en caso contrario, ejecuta un camino alternativo. 
@@ -676,3 +677,82 @@ elif cantidad < 5:
 else:
     print("Hay varias frutas")
 """
+
+# Ejemplo 28: Verificar si una persona puede conducir
+edad = 19
+if edad >= 18:
+    print("Puede conducir")
+else:
+    print("Aun no puede conducir")
+
+# Ejemplo 29: Revisar si una tienda esta abierta
+hora = 10
+if hora >= 8 and hora < 18:
+    print("La tienda esta abierta")
+else:
+    print("La tienda esta cerrada")
+
+# Ejemplo 30: Clasificar una temperatura sencilla
+temperatura = 25
+if temperatura < 15:
+    print("Hace frio")
+elif temperatura <= 28:
+    print("La temperatura es agradable")
+else:
+    print("Hace calor")
+
+# Ejemplo 31: Verificar una palabra secreta
+palabra = "python"
+if palabra == "python":
+    print("Palabra correcta")
+else:
+    print("Palabra incorrecta")
+
+# Ejemplo 32: Revisar si un numero esta en un rango
+numero = 7
+if numero >= 1 and numero <= 10:
+    print("El numero esta entre 1 y 10")
+else:
+    print("El numero esta fuera del rango")
+
+# Ejemplo 33: Clasificar una cantidad de puntos
+puntos = 80
+if puntos >= 90:
+    print("Nivel excelente")
+elif puntos >= 60:
+    print("Nivel bueno")
+else:
+    print("Necesita practicar")
+
+# Ejemplo 34: Verificar si hay cupos
+cupos = 3
+if cupos > 0:
+    print("Hay cupos disponibles")
+else:
+    print("No hay cupos")
+
+# Ejemplo 35: Comparar dos precios
+precio_a = 12000
+precio_b = 15000
+if precio_a < precio_b:
+    print("El producto A es mas barato")
+elif precio_b < precio_a:
+    print("El producto B es mas barato")
+else:
+    print("Los precios son iguales")
+
+# Ejemplo 36: Revisar si un numero es divisible por 5
+numero = 25
+if numero % 5 == 0:
+    print("Es divisible por 5")
+else:
+    print("No es divisible por 5")
+
+# Ejemplo 37: Elegir una bebida
+bebida = "agua"
+if bebida == "agua":
+    print("Elegiste agua")
+elif bebida == "jugo":
+    print("Elegiste jugo")
+else:
+    print("Bebida no disponible")
