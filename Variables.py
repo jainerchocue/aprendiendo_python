@@ -1,3 +1,4 @@
+# Version: 0.4
 ###### FASE 1 #####
 # Ejercicio 1: Crea dos variables, una para tu nombre y otra para tu edad. 
 
@@ -164,3 +165,54 @@ cantidad = 4
 total = precio * cantidad
 print(f"El total de la compra es {total} pesos.")
 """
+
+# Ejemplo 14: Nombre de una ciudad
+ciudad = "Cali"
+print(f"Mi ciudad es {ciudad}.")
+
+# Ejemplo 15: Convertir dias a horas
+dias = 2
+horas = dias * 24
+print(f"{dias} dias equivalen a {horas} horas.")
+
+# Ejemplo 16: Calcular el total de dos productos
+precio_pan = 2000
+precio_jugo = 3500
+total_compra = precio_pan + precio_jugo
+print(f"El total de los productos es {total_compra} pesos.")
+
+# Ejemplo 17: Guardar el color favorito
+color_favorito = "verde"
+print(f"Mi color favorito es el {color_favorito}.")
+
+# Ejemplo 18: Calcular la edad del proximo ano
+edad_actual = 18
+edad_proximo_ano = edad_actual + 1
+print(f"El proximo ano tendre {edad_proximo_ano} anos.")
+
+# Ejemplo 19: Convertir metros a centimetros
+metros = 4
+centimetros = metros * 100
+print(f"{metros} metros equivalen a {centimetros} centimetros.")
+
+# Ejemplo 20: Datos de una pelicula
+pelicula = "El viaje"
+duracion = 120
+print(f"La pelicula {pelicula} dura {duracion} minutos.")
+
+# Ejemplo 21: Calcular dinero restante
+dinero_inicial = 20000
+gasto = 7500
+dinero_restante = dinero_inicial - gasto
+print(f"Despues del gasto quedan {dinero_restante} pesos.")
+
+# Ejemplo 22: Calcular una distancia total
+distancia_manana = 3
+distancia_tarde = 5
+distancia_total = distancia_manana + distancia_tarde
+print(f"La distancia total es de {distancia_total} kilometros.")
+
+# Ejemplo 23: Presentar un curso
+curso = "Python"
+nivel = "inicial"
+print(f"Estoy estudiando {curso} en nivel {nivel}.")
