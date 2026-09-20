@@ -1,3 +1,4 @@
+# Version: 0.2
 # 📘 El uso de Listas en Programación
 # Las listas nos permiten almacenar múltiples valores en una sola variable.
 
@@ -59,3 +60,51 @@ print(animales)
 calificaciones = [4, 2, 5, 3]
 calificaciones.sort()
 print(calificaciones)
+
+# Ejemplo 9: Ordenar una lista al reves
+numeros_ordenados = [1, 3, 2, 5]
+numeros_ordenados.sort(reverse=True)
+print(numeros_ordenados)
+
+# Ejemplo 10: Agregar varios elementos
+frutas_nuevas = ["manzana"]
+frutas_nuevas.extend(["pera", "uva"])
+print(frutas_nuevas)
+
+# Ejemplo 11: Quitar el ultimo elemento
+colores = ["rojo", "verde", "azul"]
+ultimo_color = colores.pop()
+print(ultimo_color)
+print(colores)
+
+# Ejemplo 12: Revisar si un elemento existe
+animales = ["perro", "gato", "pez"]
+print("gato" in animales)
+
+# Ejemplo 13: Contar un elemento
+votos = ["si", "no", "si", "si"]
+print(votos.count("si"))
+
+# Ejemplo 14: Obtener la posicion de un elemento
+colores = ["rojo", "verde", "azul"]
+print(colores.index("verde"))
+
+# Ejemplo 15: Sumar numeros de una lista
+precios = [1000, 2000, 3000]
+print(sum(precios))
+
+# Ejemplo 16: Copiar una lista
+lista_original = [1, 2, 3]
+lista_copia = lista_original.copy()
+print(lista_copia)
+
+# Ejemplo 17: Recorrer y mostrar precios
+precios = [500, 1000, 1500]
+for precio in precios:
+    print(f"Precio: {precio}")
+
+# Ejemplo 18: Crear una lista vacia y agregar datos
+tareas = []
+tareas.append("estudiar")
+tareas.append("practicar")
+print(tareas)
