@@ -1,3 +1,4 @@
+# Version: 0.6
 # Ejercicio 1 — Calculadora básica
 """
 #Crea dos variables con números.
@@ -259,6 +260,61 @@ iva = precio * 0.19
 precio_final = precio + iva
 print(f"El precio final con IVA es {precio_final}")
 """
+
+# Ejemplo 18: Calcular el cambio de una compra
+dinero_entregado = 20000
+valor_compra = 13500
+cambio = dinero_entregado - valor_compra
+print(f"El cambio es {cambio} pesos")
+
+# Ejemplo 19: Convertir metros a centimetros
+metros = 4
+centimetros = metros * 100
+print(f"{metros} metros son {centimetros} centimetros")
+
+# Ejemplo 20: Calcular el perimetro de un cuadrado
+lado = 6
+perimetro = lado * 4
+print(f"El perimetro del cuadrado es {perimetro}")
+
+# Ejemplo 21: Calcular el perimetro de un rectangulo
+base = 8
+altura = 3
+perimetro = 2 * (base + altura)
+print(f"El perimetro del rectangulo es {perimetro}")
+
+# Ejemplo 22: Convertir dias a horas
+dias = 3
+horas = dias * 24
+print(f"{dias} dias son {horas} horas")
+
+# Ejemplo 23: Calcular el total con dos cantidades
+precio = 2500
+cantidad = 4
+total = precio * cantidad
+print(f"El total es {total} pesos")
+
+# Ejemplo 24: Calcular el promedio de dos notas
+nota1 = 4
+nota2 = 5
+promedio = (nota1 + nota2) / 2
+print(f"El promedio es {promedio}")
+
+# Ejemplo 25: Convertir minutos a segundos
+minutos = 7
+segundos = minutos * 60
+print(f"{minutos} minutos son {segundos} segundos")
+
+# Ejemplo 26: Calcular la mitad de un numero
+numero = 18
+mitad = numero / 2
+print(f"La mitad de {numero} es {mitad}")
+
+# Ejemplo 27: Calcular una distancia recorrida
+vueltas = 5
+metros_por_vuelta = 20
+distancia = vueltas * metros_por_vuelta
+print(f"La distancia recorrida es {distancia} metros")
 
 
 
