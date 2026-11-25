@@ -55,17 +55,23 @@ print(f"El cuadrado de 3 es: {resultado}")
 
 # Nuevos ejemplos sencillos
 
+# ============================================================================
+
 # Ejemplo 6: Función para sumar dos números
 def sumar(numero1, numero2):
     return numero1 + numero2
 
 print(sumar(3, 4))
 
+# ============================================================================
+
 # Ejemplo 7: Función para saludar con un mensaje
 def mostrar_mensaje(mensaje):
     print(mensaje)
 
 mostrar_mensaje("Hoy practicamos Python")
+
+# ============================================================================
 
 # Ejemplo 8: Función para calcular el precio total
 def calcular_total(precio, cantidad):
@@ -74,65 +80,110 @@ def calcular_total(precio, cantidad):
 total = calcular_total(2500, 3)
 print(f"El total es: {total}")
 
-# Ejemplo 9: Funcion para restar dos numeros
+# ============================================================================
+
+# Ejemplo 9: Función para restar dos números
+
 def restar(numero1, numero2):
     return numero1 - numero2
 
 print(restar(10, 3))
 
-# Ejemplo 10: Funcion para multiplicar dos numeros
+# ============================================================================
+
+# Ejemplo 10: Función para multiplicar dos números
+"""
 def multiplicar(numero1, numero2):
     return numero1 * numero2
 
 print(multiplicar(4, 5))
+"""
 
-# Ejemplo 11: Funcion para convertir minutos a segundos
+# ============================================================================
+
+# Ejemplo 11: Función para convertir minutos a segundos
+"""
 def convertir_a_segundos(minutos):
     return minutos * 60
 
 print(convertir_a_segundos(2))
+"""
 
-# Ejemplo 12: Funcion para verificar si una persona es adulta
+# ============================================================================
+
+# Ejemplo 12: Función para verificar si una persona es adulta
+"""
 def es_adulto(edad):
     return edad >= 18
 
 print(es_adulto(20))
+"""
 
-# Ejemplo 13: Funcion para obtener el mayor de dos numeros
+# ============================================================================
+
+# Ejemplo 13: Función para obtener el mayor de dos números
+"""
 def mayor_de_dos(numero1, numero2):
     if numero1 > numero2:
         return numero1
     return numero2
 
 print(mayor_de_dos(8, 5))
+"""
 
-# Ejemplo 14: Funcion para calcular el promedio
+# ============================================================================
+
+# Ejemplo 14: Función para calcular el promedio
+"""
 def calcular_promedio(nota1, nota2):
     return (nota1 + nota2) / 2
 
 print(calcular_promedio(4, 5))
+"""
 
-# Ejemplo 15: Funcion con un valor por defecto
+# ============================================================================
+
+# Ejemplo 15: Función con un valor por defecto
+"""
 def saludar_con_nombre(nombre="estudiante"):
     print(f"Hola, {nombre}")
 
 saludar_con_nombre()
 saludar_con_nombre("Sofia")
+"""
 
-# Ejemplo 16: Funcion para calcular el area de un rectangulo
+# ============================================================================
+
+# Ejemplo 16: Función para calcular el área de un rectángulo
+"""
 def area_rectangulo(base, altura):
     return base * altura
 
 print(area_rectangulo(5, 3))
+"""
 
-# Ejemplo 17: Funcion para convertir kilometros a metros
+# ============================================================================
+
+# Ejemplo 17: Función para convertir kilómetros a metros
+"""
 def convertir_a_metros(kilometros):
     return kilometros * 1000
 
 print(convertir_a_metros(2))
+"""
 
-# Ejemplo 18: Funcion para contar letras
+# ============================================================================
+
+# Ejemplo 18: Función para contar letras
+"""
 def contar_letras(palabra):
     return len(palabra)
 
 print(contar_letras("Python"))
+"""
+
+def calculador_porcentaje_iva(precio_base, procentaje_iva):
+    iva  = procentaje_iva / 100
+    valor_final = precio_base (precio_base + iva)
+    return valor_final
+print(calculador_porcentaje_iva(1000, 19))

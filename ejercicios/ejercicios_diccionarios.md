@@ -6,7 +6,7 @@ Bienvenido/a a los ejercicios de diccionarios. Aquí encontrarás desafíos para
 
 1. Lee cada enunciado cuidadosamente
 2. Intenta resolver el ejercicio por tu cuenta
-3. Si necesitas ayuda, revisa el archivo `diccionarios.py` donde encontrarás las soluciones
+3. Si necesitas ayuda, revisa el archivo `temas/diccionarios.py` donde encontrarás las soluciones
 4. Practica, practica y practica ¡Esa es la clave del aprendizaje!
 
 ---

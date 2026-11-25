@@ -46,63 +46,89 @@ print(notas.values())
 
 # Nuevos ejemplos sencillos
 
+# ============================================================================
+
 # Ejemplo 6: Consultar los datos de un libro
 libro = {"titulo": "Python fácil", "paginas": 120}
 print(libro["titulo"])
 print(libro["paginas"])
+
+# ============================================================================
 
 # Ejemplo 7: Eliminar una clave
 celular = {"marca": "Samsung", "color": "negro", "precio": 500000}
 del celular["color"]
 print(celular)
 
+# ============================================================================
+
 # Ejemplo 8: Consultar otra clave
 curso = {"nombre": "Python", "nivel": "inicial"}
 print(curso["nivel"])
 
+# ============================================================================
+
 # Ejemplo 9: Consultar una clave con get()
 usuario = {"nombre": "Laura", "edad": 22}
 print(usuario.get("nombre"))
+
+# ============================================================================
 
 # Ejemplo 10: Agregar una ciudad
 persona = {"nombre": "Carlos"}
 persona["ciudad"] = "Pereira"
 print(persona)
 
+# ============================================================================
+
 # Ejemplo 11: Modificar una edad
 persona = {"nombre": "Ana", "edad": 20}
 persona["edad"] = 21
 print(persona)
+
+# ============================================================================
 
 # Ejemplo 12: Recorrer las claves
 frutas = {"primera": "manzana", "segunda": "pera"}
 for clave in frutas:
 	print(clave)
 
+# ============================================================================
+
 # Ejemplo 13: Recorrer claves y valores
 notas = {"matematicas": 4, "ingles": 5}
 for materia, nota in notas.items():
 	print(f"{materia}: {nota}")
 
+# ============================================================================
+
 # Ejemplo 14: Revisar si existe una clave
 libro = {"titulo": "Python facil", "paginas": 100}
 print("titulo" in libro)
+
+# ============================================================================
 
 # Ejemplo 15: Eliminar una clave con pop()
 producto = {"nombre": "lapiz", "precio": 1000}
 producto.pop("precio")
 print(producto)
 
+# ============================================================================
+
 # Ejemplo 16: Contar elementos de un diccionario
 colores = {"a": "rojo", "b": "azul", "c": "verde"}
 print(len(colores))
 
-# Ejemplo 17: Crear un diccionario vacio
+# ============================================================================
+
+# Ejemplo 17: Crear un diccionario vacío
 contacto = {}
 contacto["nombre"] = "Mario"
 contacto["telefono"] = "3000000000"
 print(contacto)
 
+# ============================================================================
+
 # Ejemplo 18: Guardar datos de una mascota
 mascota = {"nombre": "Luna", "tipo": "perro", "edad": 3}
-print(f"{mascota['nombre']} tiene {mascota['edad']} anos")
+print(f"{mascota['nombre']} tiene {mascota['edad']} años")

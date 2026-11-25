@@ -1,6 +1,7 @@
 # Version: 0.5
-# 📘 El uso de Condicionales en ProgramaciónBienvenido/a a este espacio. 
-# El objetivo de este código es mostrar el funcionamiento de las estructuras condicionales.Una condicional es un proceso que otorga a las computadoras la capacidad de tomar decisiones lógicas. 
+# 📘 El uso de Condicionales en Programación
+# Bienvenido/a a este espacio.
+# El objetivo de este código es mostrar el funcionamiento de las estructuras condicionales. Una condicional es un proceso que otorga a las computadoras la capacidad de tomar decisiones lógicas.
 # Al evaluar el flujo del programa, el sistema escoge la ruta que cumple con los requisitos establecidos y, en caso contrario, ejecuta un camino alternativo. 
 # Comprender esta técnica es crucial para dominar los fundamentos del desarrollo de software.
 

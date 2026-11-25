@@ -1,4 +1,9 @@
 # Version: 0.4
+# 📘 Variables en Python
+# Aprende a guardar, mostrar e intercambiar datos usando variables.
+
+# ============================================================================
+
 ###### FASE 1 #####
 # Ejercicio 1: Crea dos variables, una para tu nombre y otra para tu edad. 
 

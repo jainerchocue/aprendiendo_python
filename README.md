@@ -2,7 +2,7 @@
 
 > Proyecto educativo en crecimiento: ya somos **11 estrellas** en GitHub.
 
-**Estado actual:** fundamentos de Python · versión 0.2 · última actualización: 20 de septiembre de 2026
+**Estado actual:** fundamentos de Python · versión 0.3 · última actualización: 25 de noviembre de 2026
 
 ## ⭐ ¡Regálame una estrellita en GitHub! ⭐
 
@@ -34,36 +34,45 @@ En este repositorio tendrás acceso a:
 
 ---
 
+## 🗂️ Estructura del Repositorio
+
+El proyecto está organizado en dos carpetas principales para que sea fácil estudiar y practicar:
+
+- **`temas/`** — Archivos `.py` con explicaciones, ejemplos paso a paso y ejercicios comentados.
+- **`ejercicios/`** — Guías en `.md` con enunciados para que practiques por tu cuenta antes de ver las soluciones.
+
+---
+
 ## Temas Fundamentales de Python
 
 Aquí encontrarás los conceptos base que te servirán para construir proyectos reales:
 
-### ▶    Variables
-Entender cómo almacenar y manipular información · [`Variables.py`](Variables.py)
+### ▶ Variables
+Entender cómo almacenar y manipular información · [`temas/Variables.py`](temas/Variables.py) · [Practicar](ejercicios/ejercicios_variables.md)
 
-### ▶    Operaciones  
-Realizar cálculos y transformaciones de datos · [`operaciones.py`](operaciones.py)
+### ▶ Operaciones
+Realizar cálculos y transformaciones de datos · [`temas/operaciones.py`](temas/operaciones.py) · [Practicar](ejercicios/ejercicios_operaciones.md)
 
-### ▶    Condicionales
-Tomar decisiones en tu código según diferentes situaciones · [`condicionales.py`](condicionales.py)
+### ▶ Condicionales
+Tomar decisiones en tu código según diferentes situaciones · [`temas/condicionales.py`](temas/condicionales.py) · [Practicar](ejercicios/ejercicios_condicionales.md)
 
-### ▶    Ciclos
-Repetir tareas de manera eficiente (bucles) · [`ciclos.py`](ciclos.py)
+### ▶ Ciclos
+Repetir tareas de manera eficiente (bucles) · [`temas/ciclos.py`](temas/ciclos.py) · [Practicar](ejercicios/ejercicios_ciclos.md)
 
-### ▶    Listas
-Organizar y trabajar con colecciones de datos · [`listas.py`](listas.py)
+### ▶ Listas
+Organizar y trabajar con colecciones de datos · [`temas/listas.py`](temas/listas.py) · [Practicar](ejercicios/ejercicios_listas.md)
 
-### ▶    Diccionarios
-Almacenar información con pares clave-valor · [`diccionarios.py`](diccionarios.py)
+### ▶ Diccionarios
+Almacenar información con pares clave-valor · [`temas/diccionarios.py`](temas/diccionarios.py) · [Practicar](ejercicios/ejercicios_diccionarios.md)
 
-### ▶    Tuplas
-Manejar datos inmutables de manera eficiente · [`tuplas.py`](tuplas.py)
+### ▶ Tuplas
+Manejar datos inmutables de manera eficiente · [`temas/tuplas.py`](temas/tuplas.py) · [Practicar](ejercicios/ejercicios_tuplas.md)
 
-### ▶    Funciones
-Crear bloques de código reutilizables · [`funciones.py`](funciones.py)
+### ▶ Funciones
+Crear bloques de código reutilizables · [`temas/funciones.py`](temas/funciones.py) · [Practicar](ejercicios/ejercicios_funciones.md)
 
-### ▶    Mini Proyectos
-Aplicar todo lo aprendido en proyectos prácticos · [`mini_proyectos.py`](mini_proyectos.py)
+### ▶ Mini Proyectos
+Aplicar todo lo aprendido en proyectos prácticos · [`temas/mini_proyectos.py`](temas/mini_proyectos.py) · [Practicar](ejercicios/ejercicios_mini_proyectos.md)
 
 ---
 
@@ -78,6 +87,12 @@ Cada archivo incluye:
 **El objetivo es que aprendamos Python desde cero, de manera sencilla y práctica.**
 
 ## 🚀 Actualizaciones recientes
+
+### 25 de noviembre de 2026
+
+- Reorganizamos el repositorio en las carpetas `temas/` (archivos `.py`) y `ejercicios/` (enunciados `.md`).
+- Mejoramos los encabezados, mensajes y separaciones visuales dentro de los archivos de Python.
+- Agregamos nuevas guías de práctica: variables, operaciones, ciclos, tuplas y mini proyectos.
 
 ### 20 de septiembre de 2026
 
